@@ -1,8 +1,6 @@
 {
-  "name": "menfem-app",
+  "name": "menfem-app-c85b",
   "private": true,
-  "license": "MIT",
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
   "sideEffects": false,
   "type": "module",
   "imports": {
@@ -168,5 +166,9 @@
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
+  },
+  "epic-stack": {
+    "head": "8ed1c663f89946bd0e626e918c31963f4ba21971",
+    "date": "2025-02-22T00:13:32Z"
   }
 }

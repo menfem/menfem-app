@@ -231,7 +231,10 @@ if (!portAvailable && !IS_DEV) {
 const server = app.listen(portToUse, () => {
 	if (!portAvailable) {
 		console.warn(
-			styleText('yellow', `⚠️  Port ${desiredPort} is not available, using ${portToUse} instead.`),
+			styleText(
+				'yellow',
+				`⚠️  Port ${desiredPort} is not available, using ${portToUse} instead.`,
+			),
 		)
 	}
 	console.log(`🚀  We have liftoff!`)
